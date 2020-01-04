@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="chronometerStart"
+        android:text="start"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="#00ff00"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="chronometerPause"
+        android:text="pause"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="#FFFF00"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="chronometerReset"
+        android:text="reset"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="#FF0000"/>
+
+
+
+
+
+</LinearLayout>
